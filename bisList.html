@@ -1,0 +1,115 @@
+<head>
+    <link rel = "stylesheet" href = "project.css">
+    <title>BiS Restoration Shaman Gear</title>
+
+    <img src="images/shamanLogo.jpg" alt="Shaman Logo" style="width:100px;height:100px;"/>
+    <img src="images/shamanLogo.jpg" alt="Shaman Logo" style="width:100px;height:100px;float:right;"/><br>
+    <h1 style="text-align: center;color:white;"> Best in Slot Gear for Season 1 Shadowlands (Patch 9.0) </h1><br>
+    <img src="images/shamanLogo.jpg" alt="Shaman Logo" style="width:100px;height:100px;"/>
+    <img src="images/shamanLogo.jpg" alt="Shaman Logo" style="width:100px;height:100px;float:right;"/><br>
+
+    <table id = "pageTable">
+        <tr>
+            <th style = "color: white;" colspan="3">Click below to learn more about Restoration Shaman!</td>
+        </tr>
+        <tr>
+            <td><a href = "classDicussion.html">Class Discussion</a></td>
+            <td><a href = "talents.html">Talents</a></td>
+            <td><a href = "mainPage.html">Back to Main Page</a></td>
+        </tr>
+    </table>
+</head>
+
+<body>
+    <p id = "bisList">
+        In World of Warcraft, There is one Primary Stat (Agility, Intellect, or Strength - depending on specialization)
+        and four Secondary Stats(Critical Strike, Haste, Mastery, and Versatility) that can be customized to make your 
+        character perform at different rates compared to others. <br><br><br>
+        Primary Stat - Increases the magnitude of your spells and abilities.<br>
+        Secondary Stats:<br>
+        Critical Strike - Chance for extra effectiveness on your attack and heals.<br>
+        Haste - Increases attack speed and spell casting speed.<br>
+        Mastery - Increases healing from your spells by up to X (where X is depending on the rating), based on the current health of your target. Lower health targets are healed for more.<br>
+        Versatility - Increases damage and healing done by X (where X is depending on the rating) and decreases damage taken by Y (where Y is is half of X).<br><br><br>
+        For Restoration Shamans, the stat priority is the following:<br>
+        Intellect > Haste to a breakpoint (Around 8-10%) > Critical Strike > Versatility > Mastery > Haste<br><br><br>
+        With this Stat priority in mind, there are a variation of equipment items that can be utilized to customize. In order to better analyze and customize your character,
+        below you can import your character's current equipment and see what stats you have. Then you can select any equipment area and place a different item to see how it would differ!
+    </p>
+    <script> 
+    function myFunction() { 
+            var charName =  document.getElementById("charName").value;
+            var serverName = document.getElementById("serverName").value;
+            document.getElementById("name").innerHTML = charName;
+            document.getElementById("server").innerHTML = serverName; 
+    } 
+    </script>
+    <table id = "formTable">
+        <tr>
+            <td>
+                Name:
+                <input type="text"
+                       id="charName"
+                       value="Enter your Character Name!">
+            </td>
+            <td>
+                Server:
+                <input type="text"
+                       id="serverName"
+                       value="Enter your Server Name!">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button type="button" onclick="myFunction();">Submit Character</button>
+            </td>
+        </tr>
+    </table>
+    <table id ="bisListTable">
+        <tr>
+            <th id ="name"></th>
+            <th id = "server"></th>
+        </tr>
+        <tr>
+            <td>Head</td>
+            <td>Hands</td>
+        </tr>
+        <tr>
+            <td>Neck</td>
+            <td>Waist</td>
+        </tr>
+        <tr>
+            <td>Shoulders</td>
+            <td>Legs</td>
+        </tr>
+        <tr>
+            <td>Back</td>
+            <td>Feet</td>
+        </tr>
+        <tr>
+            <td>Chest</td>
+            <td>Fingers</td>
+        </tr>
+        <tr>
+            <td>Wrist</td>
+            <td>Trinkets</td>
+        </tr>
+        <tr>
+            <td>Weapon</td>
+            <td>Shield</td>
+        </tr>
+    </table>
+</body>
+
+<footer>
+    <p>
+        Links to World of Warcraft Resources:<br>
+        <ul>
+            <li><a href = "https://www.wowhead.com/">Wowhead</a></li>
+            <li><a href = "https://www.mmo-champion.com/content/?">MMOChampion</a></li>
+            <li><a href = "https://www.warcraftlogs.com/">Warcraft Logs</a></li>
+            <li><a href = "https://wowanalyzer.com/">WoWAnalyzer</a></li>
+        </ul>
+    </p>
+    <i>Created by: Breann Birch - October 2020</i>
+</footer>
