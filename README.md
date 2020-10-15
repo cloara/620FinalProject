@@ -16,3 +16,8 @@ HTML Practices (things such as tables, images, embedding)
 CSS Practices (External Style Sheet with multiple different styling details)
 Javascript Practices (Scripting function in place)
 Explored doing some database things for the website - but did not have current access to the WoW API to move further.
+
+
+
+TESTING COMPLETED:
+I ran the website on my PC, my laptop, and my work laptop. I also ran on Chrome, Firefox, and Microsoft Edge. Also gave my mom the Git Repo and made sure it worked for her. All tests ran successfully. 
